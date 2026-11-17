@@ -1,0 +1,5 @@
+﻿{
+    "description":  "A collaborative To-Do List web app built with Firebase",
+    "name":  "MyToDoList",
+    "public":  true
+}

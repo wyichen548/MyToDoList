@@ -1,0 +1,43 @@
+[debug] [2026-11-17T03:17:19.325Z] ----------------------------------------------------------------------
+[debug] [2026-11-17T03:17:19.327Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2026-11-17T03:17:19.327Z] CLI Version:   15.36.0
+[debug] [2026-11-17T03:17:19.327Z] Platform:      win32
+[debug] [2026-11-17T03:17:19.327Z] Node Version:  v20.15.1
+[debug] [2026-11-17T03:17:19.327Z] Detected Agent: unknown
+[debug] [2026-11-17T03:17:19.328Z] Time:          Tue Nov 17 2026 11:17:19 GMT+0800 (台北標準時間)
+[debug] [2026-11-17T03:17:19.328Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-11-17T03:17:20.407Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-11-17T03:17:20.407Z] > authorizing via signed-in user (wyichen548@gmail.com)
+[debug] [2026-11-17T03:17:20.408Z] [iam] checking project my-to-do-list-91d1c for permissions ["firebase.projects.get"]
+[debug] [2026-11-17T03:17:20.409Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:20.409Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:20.411Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c:testIamPermissions [none]
+[debug] [2026-11-17T03:17:20.411Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c:testIamPermissions  x-goog-user-project=my-to-do-list-91d1c
+[debug] [2026-11-17T03:17:20.411Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-11-17T03:17:21.615Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c:testIamPermissions 200
+[debug] [2026-11-17T03:17:21.615Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-11-17T03:17:21.617Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:21.617Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:21.617Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c [none]
+[debug] [2026-11-17T03:17:21.901Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c 200
+[debug] [2026-11-17T03:17:21.901Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/projects/my-to-do-list-91d1c {"projectNumber":"574951341560","projectId":"my-to-do-list-91d1c","lifecycleState":"ACTIVE","name":"My To-Do List","labels":{"firebase":"enabled","firebase-core":"disabled"},"createTime":"2026-11-15T08:03:47.454Z"}
+[debug] [2026-11-17T03:17:21.904Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:21.904Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:21.905Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/sites 
+[debug] [2026-11-17T03:17:22.874Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/sites 200
+[debug] [2026-11-17T03:17:22.874Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/sites {"sites":[{"name":"projects/my-to-do-list-91d1c/sites/my-to-do-list-91d1c","defaultUrl":"https://my-to-do-list-91d1c.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2026-11-17T03:17:22.875Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:22.875Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:22.875Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/webApps/-/config [none]
+[debug] [2026-11-17T03:17:24.159Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/webApps/-/config 200
+[debug] [2026-11-17T03:17:24.159Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c/webApps/-/config {"projectId":"my-to-do-list-91d1c","appId":"1:574951341560:web:f9304b8dd708162d7daa0d","storageBucket":"my-to-do-list-91d1c.firebasestorage.app","apiKey":"AIzaSyCMqWQhBPziP3EU1XImXNTjBWrfIpjPO-Q","authDomain":"my-to-do-list-91d1c.firebaseapp.com","messagingSenderId":"574951341560","projectNumber":"574951341560","version":"2"}
+[debug] [2026-11-17T03:17:24.179Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:24.180Z] Checked if tokens are valid: true, expires at: 1794888947938
+[debug] [2026-11-17T03:17:24.180Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c [none]
+[debug] [2026-11-17T03:17:24.525Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c 200
+[debug] [2026-11-17T03:17:24.526Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/my-to-do-list-91d1c {"projectId":"my-to-do-list-91d1c","projectNumber":"574951341560","displayName":"My To-Do List","name":"projects/my-to-do-list-91d1c","resources":{"hostingSite":"my-to-do-list-91d1c"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_c0f69194-7ee3-4a88-9651-0362acccde42"}
+[info] +  hosting[my-to-do-list-91d1c]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[info] i  hosting: ::1 - - [17/Nov/2026:03:17:57 +0000] "GET / HTTP/1.1" 200 1007 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2026:03:17:57 +0000] \"GET / HTTP/1.1\" 200 1007 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2026:03:17:58 +0000] "GET /app.js HTTP/1.1" 200 - "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2026:03:17:58 +0000] \"GET /app.js HTTP/1.1\" 200 - \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36\""}}
+[info] i  hosting: ::1 - - [17/Nov/2026:03:17:58 +0000] "GET /favicon.ico HTTP/1.1" 200 1007 "http://localhost:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"::1 - - [17/Nov/2026:03:17:58 +0000] \"GET /favicon.ico HTTP/1.1\" 200 1007 \"http://localhost:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36\""}}
